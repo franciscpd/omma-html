@@ -270,7 +270,8 @@ nav > a {
   margin-bottom: 67px;
 }
 
-#contato form input {
+#contato form input,
+#contato form textarea {
   border: 1px solid #FFA000;
   color: #58555D;
   border-radius: 7px;
@@ -279,12 +280,47 @@ nav > a {
   margin-bottom: 23px;
 }
 
-#contato form input::placeholder {
+#contato form textarea {
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+
+#contato form input::placeholder,
+#contato form textarea::placeholder {
   color: #58555D;
 }
 
-#contato form input:focus {
+#contato form input:focus,
+#contato form textarea:focus {
   outline: none;
+}
+
+#contato form button {
+  width: 165px;
+  font-size: 16px;
+  font-weight: 800;
+  color: white;
+  background: #FFC107;
+  border-radius: 50px;
+  border: none;
+  padding: 12px;
+}
+
+#cabecalho {
+  background-image: url('../images/contato-header.jpg');
+  padding: 49px 122px 186px;
+}
+
+#cabecalho h1 {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 85px;
+  text-transform: lowercase;
+
+  color: #FFFFFF;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+  max-width: 419px;
 }
 
 footer {
