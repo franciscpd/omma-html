@@ -283,6 +283,7 @@ nav > a {
 #contato form textarea {
   padding-top: 34px;
   padding-bottom: 34px;
+  margin-bottom: 16px;
 }
 
 #contato form input::placeholder,
